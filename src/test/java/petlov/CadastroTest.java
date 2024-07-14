@@ -119,7 +119,7 @@ public class CadastroTest extends CadastroPage {
 		PontoDoacao ponto = new PontoDoacao(
 				"Vida Animal",
 				"vidaAnimal@hotmail.com.br",
-				"04534011",
+				"",
 				"29",
 				"Em frente a quadra",
 				"Cachorros");
