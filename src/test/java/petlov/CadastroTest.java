@@ -21,7 +21,7 @@ public class CadastroTest extends CadastroPage {
 				"04534011",
 				"345",
 				"Ao lado do Mercado",
-				"Gatos");
+				"Cachorros e Gatos");
 
 		acessarFormulario();
 

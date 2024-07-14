@@ -24,11 +24,11 @@ public class CadastroPage {
 		$("input[value='Buscar CEP']").click();
 		$("input[name=addressNumber]").setValue(ponto.numero.toString());
 		$("input[name=addressDetails]").setValue(ponto.complemento);
-		if(ponto.pets.equalsIgnoreCase("cachorro")) {
+		if(ponto.pets.equalsIgnoreCase("Cachorros")) {
 			$(By.xpath("//span[text()='Cachorros']/..")).click();
-		}else if (ponto.pets.equalsIgnoreCase("gato")) {
+		}else if (ponto.pets.equalsIgnoreCase("Gatos")) {
 			$(By.xpath("//span[text()='Gatos']/..")).click();
-		}else if(ponto.pets.equalsIgnoreCase("cachorro e gato") || ponto.pets.equalsIgnoreCase("cachorro gato")) {
+		}else if(ponto.pets.equalsIgnoreCase("Cachorros e Gatos") || ponto.pets.equalsIgnoreCase("cachorro gato")) {
 			$(By.xpath("//span[text()='Cachorros']/..")).click();
 			$(By.xpath("//span[text()='Gatos']/..")).click();
 		}
