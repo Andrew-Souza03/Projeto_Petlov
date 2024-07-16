@@ -34,9 +34,9 @@ Clonar o projeto:
 git clone https://github.com/Andrew-Souza03/Projeto_Petlov.git
 ```
 
-Execute o comando abaixo:
+Entre na pasta executando o comando abaixo:
 ```
-git remote add origin https://github.com/Andrew-Souza03/Projeto_Petlov.git
+cd Projeto_Petlov
 ```
 
 ### ⚙️Execute o comando abaixo para rodar os testes via linha de comando:
